@@ -9,64 +9,86 @@
         margin: 0 auto;
         padding: 16px;
         font:
-          13px system-ui,
-          "Segoe UI",
+          14px "Segoe UI",
+          "Helvetica Neue",
+          Helvetica,
+          Arial,
           sans-serif;
-        background: #fff;
-        color: #0f172a;
+        background: #ffffff;
+        color: #111b21;
       }
       @media (prefers-color-scheme: dark) {
         body {
-          background: #0f172a;
-          color: #e2e8f0;
+          background: #111b21;
+          color: #e9edef;
         }
         #log {
-          background: #1e293b !important;
+          background: #202c33 !important;
+        }
+        button {
+          border-color: #2a3942 !important;
+        }
+        button:hover {
+          background: #2a3942;
         }
       }
       h1 {
-        font-size: 15px;
+        font-size: 19px;
+        font-weight: 400;
         margin: 0 0 6px;
+      }
+      #hint,
+      #summary {
+        color: #667781;
+        font-size: 13px;
       }
       .row {
         display: flex;
         gap: 8px;
-        margin: 8px 0;
+        margin: 10px 0;
         flex-wrap: wrap;
       }
       button {
-        padding: 6px 12px;
-        border-radius: 14px;
-        border: 1px solid #64748b;
+        padding: 6px 14px;
+        border-radius: 16px;
+        border: 1px solid #e9edef;
         background: transparent;
         color: inherit;
         cursor: pointer;
+        font: inherit;
+        font-size: 13px;
+      }
+      button:hover {
+        background: #f5f6f6;
       }
       button.main {
-        background: #0284c7;
+        background: #00a884;
         color: #fff;
         border: none;
+        border-radius: 24px;
+        padding: 8px 20px;
+        font-weight: 500;
       }
-      #summary {
-        font-size: 12px;
+      button.main:hover {
+        background: #008f72;
       }
       #log {
-        height: calc(100vh - 150px);
+        height: calc(100vh - 170px);
         overflow: auto;
         font:
-          11px/1.35 ui-monospace,
+          11.5px/1.4 ui-monospace,
           Consolas,
           monospace;
-        background: #f1f5f9;
-        padding: 6px;
-        border-radius: 6px;
+        background: #f0f2f5;
+        padding: 8px 10px;
+        border-radius: 8px;
         white-space: pre-wrap;
       }
       .e {
-        color: #dc2626;
+        color: #ea0038;
       }
       .w {
-        color: #d97706;
+        color: #b7791f;
       }
     </style>
   </head>
