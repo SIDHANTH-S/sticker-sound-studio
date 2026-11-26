@@ -1,0 +1,512 @@
+{
+  "extName": {
+    "message": "Sound Stickers for Web Chat"
+  },
+  "extDescription": {
+    "message": "Create sound stickers from a video, image, or GIF locally in your browser for use with WhatsApp Web. Unofficial."
+  },
+  "actionTitle": {
+    "message": "Create sound sticker"
+  },
+  "logPageTitle": {
+    "message": "Sound Stickers for Web Chat: Log"
+  },
+  "logPageHint": {
+    "message": "If something goes wrong, download the log to inspect or share when reporting an issue. Phone numbers and IDs are masked."
+  },
+  "logLoading": {
+    "message": "Loading..."
+  },
+  "logDownloadBtn": {
+    "message": "Download log (.json)"
+  },
+  "logCopyBtn": {
+    "message": "Copy"
+  },
+  "logCopiedBtn": {
+    "message": "Copied"
+  },
+  "logErrorsOnlyBtn": {
+    "message": "Errors only"
+  },
+  "logShowAllBtn": {
+    "message": "Show all"
+  },
+  "logClearBtn": {
+    "message": "Clear log"
+  },
+  "logClearConfirm": {
+    "message": "Clear all stored log entries?"
+  },
+  "logSummary": {
+    "message": "$p1$ entries · $p2$ errors · $p3$ warnings · $p4$ sessions",
+    "placeholders": {
+      "p1": { "content": "$1" },
+      "p2": { "content": "$2" },
+      "p3": { "content": "$3" },
+      "p4": { "content": "$4" }
+    }
+  },
+  "panelTitle": {
+    "message": "Sound Stickers for Web Chat"
+  },
+  "panelSubtitle": {
+    "message": "Version $p1$ · processed locally in your browser · max 1 MB per sticker",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "closeTitle": {
+    "message": "Close"
+  },
+  "disclaimerFooter": {
+    "message": "Unofficial. Not affiliated with or endorsed by WhatsApp or Meta."
+  },
+  "unsupportedWebApp": {
+    "message": "This version of the web app is not supported yet"
+  },
+  "unsupportedHint": {
+    "message": "This version of the web app is not supported yet. Sending is disabled, but you can still create and download .webp and .ogg files."
+  },
+  "tabVideoTitle": {
+    "message": "Video"
+  },
+  "tabVideoDesc": {
+    "message": "A video with its own sound: trim the clip and keep video and audio synced together."
+  },
+  "tabImageTitle": {
+    "message": "Image + audio"
+  },
+  "tabImageDesc": {
+    "message": "A still image with any audio you choose. The sticker lasts as long as the selected audio clip."
+  },
+  "tabMixTitle": {
+    "message": "Video or GIF + audio"
+  },
+  "tabMixDesc": {
+    "message": "An animation (muted video or GIF) paired with any audio clip you choose."
+  },
+  "secVideo": {
+    "message": "Video"
+  },
+  "secClip": {
+    "message": "Clip"
+  },
+  "secImage": {
+    "message": "Image"
+  },
+  "secAudio": {
+    "message": "Audio"
+  },
+  "secAnimation": {
+    "message": "Animation"
+  },
+  "secFormat": {
+    "message": "Format"
+  },
+  "secCreateSend": {
+    "message": "Create and send"
+  },
+  "pickVideoBtn": {
+    "message": "Choose video..."
+  },
+  "pickVideoHint": {
+    "message": "Any video with sound."
+  },
+  "pickImageBtn": {
+    "message": "Choose image..."
+  },
+  "pickImageHint": {
+    "message": "JPG, PNG, WebP... (a photo, drawing, or meme)."
+  },
+  "pickAnimBtn": {
+    "message": "Choose video or GIF..."
+  },
+  "pickAnimHint": {
+    "message": "A video (its sound is ignored) or an animated GIF."
+  },
+  "pickAudioBtn": {
+    "message": "Choose audio..."
+  },
+  "pickAudioHint": {
+    "message": "MP3, M4A, OGG, WAV... or a video to extract sound from."
+  },
+  "readingFile": {
+    "message": "Reading $p1$...",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "couldNotRead": {
+    "message": "Could not read: $p1$",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "couldNotUse": {
+    "message": "Could not use: $p1$",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "noSoundDetected": {
+    "message": "no sound detected"
+  },
+  "gifFullUsed": {
+    "message": "used in full"
+  },
+  "framesCount": {
+    "message": "$p1$ frames",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "imageAnimatedNote": {
+    "message": "This is an animated image: only its first frame is used here. For motion, use the \"Video or GIF + audio\" tab."
+  },
+  "errStillImageInMix": {
+    "message": "this is a still image. Use the \"Image + audio\" tab."
+  },
+  "trimVideoHint": {
+    "message": "Drag the handles: the video jumps to each handle's frame. Click or drag the bar to move the playhead."
+  },
+  "trimAudioHint": {
+    "message": "Choose where the sound starts and ends. Drag the handles or enter seconds."
+  },
+  "trimMixVideoHint": {
+    "message": "Choose the animation clip. This video's audio is not used."
+  },
+  "handleStartTitle": {
+    "message": "Clip start (drag)"
+  },
+  "handleEndTitle": {
+    "message": "Clip end (drag)"
+  },
+  "trackTitle": {
+    "message": "Click or drag to scrub"
+  },
+  "playClip": {
+    "message": "▶ Clip"
+  },
+  "playFromCursor": {
+    "message": "▶ From cursor"
+  },
+  "playClipEnd": {
+    "message": "▶ Clip end"
+  },
+  "cursorLabel": {
+    "message": "cursor $p1$",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "durationLabel": {
+    "message": "duration $p1$",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "startLabel": {
+    "message": "Start"
+  },
+  "endLabel": {
+    "message": "End"
+  },
+  "stepBackTitle": {
+    "message": "One frame earlier"
+  },
+  "stepFwdTitle": {
+    "message": "One frame later"
+  },
+  "setStartCursor": {
+    "message": "⤓ cursor"
+  },
+  "setStartCursorTitle": {
+    "message": "Set start to cursor position"
+  },
+  "setEndCursorTitle": {
+    "message": "Set end to cursor position"
+  },
+  "fitIfDifferent": {
+    "message": "If durations differ"
+  },
+  "fitIndependent": {
+    "message": "Keep each duration independent"
+  },
+  "fitRepeat": {
+    "message": "Loop animation until audio ends"
+  },
+  "fitFreeze": {
+    "message": "Hold last frame until audio ends"
+  },
+  "mixPromptSelect": {
+    "message": "Choose an animation and audio to see how long the sticker will last."
+  },
+  "mixSameDuration": {
+    "message": "Animation and audio have the same duration: $p1$.",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "mixDurationsLine": {
+    "message": "Animation $p1$ · audio $p2$. ",
+    "placeholders": {
+      "p1": { "content": "$1" },
+      "p2": { "content": "$2" }
+    }
+  },
+  "mixIndependentDesc": {
+    "message": "Each keeps its own duration: when tapped, animation and audio start together and end separately. Changing the audio will not require recalculating options."
+  },
+  "mixAnimLonger": {
+    "message": "Animation is longer: it will be trimmed to $p1$.",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "mixRepeatDesc": {
+    "message": "Sticker lasts $p1$: animation repeats $p2$ times.",
+    "placeholders": {
+      "p1": { "content": "$1" },
+      "p2": { "content": "$2" }
+    }
+  },
+  "mixFreezeDesc": {
+    "message": "Sticker lasts $p1$: animation pauses on its last frame at $p2$.",
+    "placeholders": {
+      "p1": { "content": "$1" },
+      "p2": { "content": "$2" }
+    }
+  },
+  "testTogetherBtn": {
+    "message": "▶ Preview together"
+  },
+  "testTogetherHint": {
+    "message": "Preview: animation plays once, just like in chat."
+  },
+  "framingLabel": {
+    "message": "Framing"
+  },
+  "modeFit": {
+    "message": "Fit (transparent borders)"
+  },
+  "modeCrop": {
+    "message": "Crop (fill square)"
+  },
+  "calcOptionsBtn": {
+    "message": "Calculate options"
+  },
+  "calcHint": {
+    "message": "Reads the clip once and estimates file size for each combination."
+  },
+  "calcStale": {
+    "message": "Inputs changed: recalculate options."
+  },
+  "calcReady": {
+    "message": "Done in $p1$ s. Choose a cell (★ = recommended).",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "calcCancelled": {
+    "message": "Cancelled"
+  },
+  "calcError": {
+    "message": "Error: $p1$",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "gridHeaderCorner": {
+    "message": "px \\ fps"
+  },
+  "legendFits": {
+    "message": "fits"
+  },
+  "legendLowQ": {
+    "message": "fits at lower quality"
+  },
+  "legendTooBig": {
+    "message": "✕ exceeds 1 MB (rejected by server)"
+  },
+  "legendNotes": {
+    "message": "★ recommended · values in KB"
+  },
+  "cellUnavailable": {
+    "message": "Not available for this clip"
+  },
+  "cellExceeds": {
+    "message": "≈ $p1$ even at minimum quality: exceeds 1 MB",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "cellLowQ": {
+    "message": "≈ $p1$ at normal quality: quality will be lowered to fit",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "cellOk": {
+    "message": "≈ $p1$",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "selectedCell": {
+    "message": "Selected: $p1$ px · $p2$ fps · ≈ $p3$$p4$",
+    "placeholders": {
+      "p1": { "content": "$1" },
+      "p2": { "content": "$2" },
+      "p3": { "content": "$3" },
+      "p4": { "content": "$4" }
+    }
+  },
+  "selectedLowQSuffix": {
+    "message": " (lower quality)"
+  },
+  "noCellFits": {
+    "message": "No combination fits under 1 MB: shorten the clip."
+  },
+  "advancedSummary": {
+    "message": "Advanced"
+  },
+  "syncOffsetLabel": {
+    "message": "Sync offset (ms)"
+  },
+  "syncOffsetHint": {
+    "message": "Usually 0. If audio lags on some devices, the first frame waits this long."
+  },
+  "stillStickerLabel": {
+    "message": "Send as still image (experimental)"
+  },
+  "stillStickerDesc": {
+    "message": "By default the image is sent as a 1-frame animated sticker matching the audio length, which is known to support sound. Check this to test if sound also plays on a static sticker."
+  },
+  "metaHint": {
+    "message": "Sticker metadata (optional): shown below the sticker in chat. Saved locally."
+  },
+  "packLabel": {
+    "message": "Pack"
+  },
+  "packPlaceholder": {
+    "message": "e.g. My Memes"
+  },
+  "authorLabel": {
+    "message": "Author"
+  },
+  "authorPlaceholder": {
+    "message": "e.g. your name or handle"
+  },
+  "createBtn": {
+    "message": "Create sticker"
+  },
+  "createDoneBtn": {
+    "message": "✓ Sticker created"
+  },
+  "createChangedBtn": {
+    "message": "Recreate sticker with changes"
+  },
+  "cancelBtn": {
+    "message": "Cancel"
+  },
+  "staleStickerNote": {
+    "message": "You changed settings after creating this sticker. Click \"Recreate sticker with changes\"; sending now will send the previous version."
+  },
+  "previewAlt": {
+    "message": "sticker preview"
+  },
+  "imageAlt": {
+    "message": "selected image"
+  },
+  "gifAlt": {
+    "message": "selected GIF"
+  },
+  "watchHearBtn": {
+    "message": "▶ Watch and hear together"
+  },
+  "destOpenOnly": {
+    "message": "Send to open chat"
+  },
+  "destOpenForward": {
+    "message": "Send to open chat and open Forward"
+  },
+  "destSelfForward": {
+    "message": "Save to my chat (You) and open Forward"
+  },
+  "sendBtn": {
+    "message": "Send"
+  },
+  "downloadBtn": {
+    "message": "Download .webp and .ogg"
+  },
+  "stickerReadyStatus": {
+    "message": "Sticker ready. Check the preview and send it."
+  },
+  "sendSuccessOpen": {
+    "message": "Sent."
+  },
+  "sendSuccessForward": {
+    "message": "Sent. Select chats in the Forward dialog."
+  },
+  "sendErrorStatus": {
+    "message": "Send failed: $p1$",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "resInfoSummary": {
+    "message": "$p1$ · $p2$ px$p3$$p4$ · quality $p5$ · sticker $p6$$p7$ · audio $p8$ at $p9$ kbps",
+    "placeholders": {
+      "p1": { "content": "$1" },
+      "p2": { "content": "$2" },
+      "p3": { "content": "$3" },
+      "p4": { "content": "$4" },
+      "p5": { "content": "$5" },
+      "p6": { "content": "$6" },
+      "p7": { "content": "$7" },
+      "p8": { "content": "$8" },
+      "p9": { "content": "$9" }
+    }
+  },
+  "resInfoDurPair": {
+    "message": "visual $p1$ · audio $p2$",
+    "placeholders": {
+      "p1": { "content": "$1" },
+      "p2": { "content": "$2" }
+    }
+  },
+  "resInfoStill": {
+    "message": " · still"
+  },
+  "resInfoEst": {
+    "message": " (est. $p1$)",
+    "placeholders": {
+      "p1": { "content": "$1" }
+    }
+  },
+  "toolsSummary": {
+    "message": "Diagnostics and logs"
+  },
+  "diagnoseBtn": {
+    "message": "Run diagnostics"
+  },
+  "saveLogBtn": {
+    "message": "Save log..."
+  },
+  "viewLogBtn": {
+    "message": "Open full log"
+  },
+  "clearLogBtn": {
+    "message": "Clear log"
+  },
+  "clearLogDone": {
+    "message": "Log cleared."
+  },
+  "hookWaLogsLabel": {
+    "message": "Capture web app internal logs (verbose)"
+  },
+  "jsonFilterDesc": {
+    "message": "JSON Log"
+  }
+}

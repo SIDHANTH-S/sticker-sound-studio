@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sound Stickers for Web Chat: Log</title>
+    <style>
+      body {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 16px;
+        font:
+          13px system-ui,
+          "Segoe UI",
+          sans-serif;
+        background: #fff;
+        color: #0f172a;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #0f172a;
+          color: #e2e8f0;
+        }
+        #log {
+          background: #1e293b !important;
+        }
+      }
+      h1 {
+        font-size: 15px;
+        margin: 0 0 6px;
+      }
+      .row {
+        display: flex;
+        gap: 8px;
+        margin: 8px 0;
+        flex-wrap: wrap;
+      }
+      button {
+        padding: 6px 12px;
+        border-radius: 14px;
+        border: 1px solid #64748b;
+        background: transparent;
+        color: inherit;
+        cursor: pointer;
+      }
+      button.main {
+        background: #0284c7;
+        color: #fff;
+        border: none;
+      }
+      #summary {
+        font-size: 12px;
+      }
+      #log {
+        height: calc(100vh - 150px);
+        overflow: auto;
+        font:
+          11px/1.35 ui-monospace,
+          Consolas,
+          monospace;
+        background: #f1f5f9;
+        padding: 6px;
+        border-radius: 6px;
+        white-space: pre-wrap;
+      }
+      .e {
+        color: #dc2626;
+      }
+      .w {
+        color: #d97706;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Sound Stickers for Web Chat: Log</h1>
+    <div id="hint" style="font-size: 12px; margin-bottom: 6px">
+      If something goes wrong, download the log to inspect or share when reporting an issue. Phone
+      numbers and IDs are masked.
+    </div>
+    <div id="summary">Loading...</div>
+    <div class="row">
+      <button class="main" id="dl">Download log (.json)</button>
+      <button id="copy">Copy</button>
+      <button id="errors">Errors only</button>
+      <button id="clear">Clear log</button>
+    </div>
+    <div id="log"></div>
+    <script src="log.js"></script>
+  </body>
+</html>
